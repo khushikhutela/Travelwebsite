@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - ExploreWorld</title>
+  <link rel="stylesheet" href="about.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Hero */
+.heading {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.heading h4 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.heading h2 {
+  font-size: 4rem;
+  margin-top: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+
+.explore-section {
+  
+  background: url(media/4.jpg)no-repeat center center/cover;
+
+    height: 50vh;
+    
+    color: white;
+    
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #035c5c;
+}
+
+.about-text h3 {
+  margin-top: 20px;
+  color: #004d4d;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Why Choose Us */
+.why-us {
+  background: #f7f9fb;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.why-us h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature-card {
+  background: #c6e7e7;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h4 {
+  margin-bottom: 10px;
+  color: #1a3c40;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+@media (max-width: 767px) {
+    .heading h2 {
+        font-size: 2rem;
+    }
+    .heading h4{
+        font-size: 1rem;
+    }
+    .explore-grid{
+        align-items: center;
+        justify-content: center
+    }
+    .explore-card {
+        align-items: center;
+    }
+}
+
+</style>
+<body>
+    <section class="explore-section">
+        <nav>
+            <div class="logo">LOGO</div>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="nav-links" id="navLinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        <div class="heading">
+          <h4>Your trusted guide to unforgettable adventures.</h4>
+          <h2>About ExploreWorld</h2>
+        </div>
+      </section>
+    
+      
+          
+      
+      </header>
+      
+  <!-- Hero Section -->
+  
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>Who We Are</h2>
+        <p>ExploreWorld is a passionate travel agency dedicated to turning your vacation dreams into reality. With years of experience, we specialize in providing tailored travel experiences that are memorable, safe, and budget-friendly.</p>
+
+        <h3>Our Mission</h3>
+        <p>To inspire and empower people to explore the world with confidence and comfort.</p>
+
+        <h3>Our Values</h3>
+        <ul>
+          <li>✔ Personalized Experience</li>
+          <li>✔ Affordable Luxury</li>
+          <li>✔ 24/7 Support</li>
+          <li>✔ Trusted by Thousands</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="media/3.jpg" alt="Team Travel">
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h4>Expert Planning</h4>
+        <p>We design personalized itineraries tailored to your needs and budget.</p>
+      </div>
+      <div class="feature-card">
+        <h4>Best Prices</h4>
+        <p>We offer competitive pricing without compromising quality or experience.</p>
+      </div>
+      <div class="feature-card">
+        <h4>24/7 Support</h4>
+        <p>Our team is available around the clock to help you at every step.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>ExploreWorld</h3>
+        <p>Your trusted partner for unforgettable travel experiences. Discover top destinations, exclusive deals, and seamless bookings with us.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><strong>Email:</strong> support@exploreworld.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Address:</strong> Mumbai, India</p>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><img src="media/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="media/insta.png" alt="Instagram" /></a>
+          <a href="#"><img src="media/twitter.png" alt="Twitter" /></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© 2025 ExploreWorld. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    const menuIcon = document.getElementById("menu-icon");
+    const navLinks = document.getElementById("navLinks");
+
+    menuIcon.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      menuIcon.innerHTML = navLinks.classList.contains("active") ? "&times;" : "&#9776;";
+    });
+  </script> 
+
+</body>
+</html>
